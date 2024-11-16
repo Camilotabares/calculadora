@@ -1,0 +1,36 @@
+/*
+aplica le modelo de cjaa para acomodacion de elementos 
+*/
+*{
+    box-sizing: border-box;
+    
+    
+}
+/*Centrar elemntos ene el body */
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* esta etiqeuta height hacer que cualquier dispositivo se ajuste ya se mobile */
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;/* Color gris claro para el*/ 
+    
+}
+
+.calculator{
+    width: 250px;
+    padding: 20px;
+    border: 1px solid red;
+    background-color: gray;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+
+h2{
+    color: #fff;
+    margin-bottom: 10px;
+}
